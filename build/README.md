@@ -32,6 +32,11 @@ Once gsutil is installed and added to your path, you can auth using:
 gcloud auth login
 ```
 
+GCLOUD DOCKER INSTALL
+```
+https://cloud.google.com/sdk/docs/install#deb
+```
+
 ## Debug
 * Follow this [tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tensorflow-object-detection-api-installation) if you run into any issue with the installation of the
 tf object detection api
