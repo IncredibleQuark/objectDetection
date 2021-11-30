@@ -20,7 +20,6 @@ def get_dataset(tfrecord_path, label_map='label_map.pbtxt'):
     input_config = input_reader_pb2.InputReader()
     input_config.label_map_path = label_map
     input_config.tf_record_input_reader.input_path[:] = [tfrecord_path]
-    
     dataset = build_dataset(input_config)
     return dataset
 

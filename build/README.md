@@ -16,7 +16,7 @@ docker build -t project-dev -f Dockerfile .
 
 Create a container with:
 ```
-docker run --gpus all -v <PATH TO LOCAL PROJECT FOLDER>:/app/project/ --network=host -ti project-dev bash
+d`ocker run --gpus all -v <PATH TO LOCAL PROJECT FOLDER>:/app/project/ --network=host -ti project-dev bash`
 ```
 and any other flag you find useful to your system (eg, `--shm-size`).
 

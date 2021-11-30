@@ -78,7 +78,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN python3 -m pip install -r requirements.txt
 RUN python3 -m pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
-
+RUN python3 -m pip install pyparsing==2.4.2
 ENV TF_CPP_MIN_LOG_LEVEL=2
 
 RUN wget https://github.com/protocolbuffers/protobuf/releases/download/v3.13.0/protoc-3.13.0-linux-x86_64.zip && \
